@@ -4,6 +4,8 @@
                                            FACULTAD DE CIENCIAS QUÍMICAS E INGENIERÍA
                                                      CICLO ESCOLAR 2019-2
 
+PROGRAMACIÓN ORIENTADA A OBJETOS AVANZADA
+
 Este proyecto es una elaboración de los alumnos:
 
   - Bañuelos de la Torre Ricardo
