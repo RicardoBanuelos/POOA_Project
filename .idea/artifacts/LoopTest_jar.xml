@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LoopTest:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LoopTest_jar</output-path>
+    <root id="archive" name="LoopTest.jar">
+      <element id="module-output" name="LoopTest" />
+    </root>
+  </artifact>
+</component>

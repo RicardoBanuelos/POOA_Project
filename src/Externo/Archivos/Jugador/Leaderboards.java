@@ -24,7 +24,7 @@ public class Leaderboards {
     //escribe la lista en un archivo
     public void escribre() {
         try {
-            FileOutputStream fos = new FileOutputStream("src/leaderboards.dat");
+            FileOutputStream fos = new FileOutputStream("src/res/leaderboards.dat");
             BufferedOutputStream bos = new BufferedOutputStream(fos);
             ObjectOutputStream oos = new ObjectOutputStream(bos);
 
@@ -44,7 +44,7 @@ public class Leaderboards {
     //lee la lista de un archivo
     public void leer(){
         try{
-            FileInputStream fis = new FileInputStream("src/leaderboards.dat");
+            FileInputStream fis = new FileInputStream("src/res/leaderboards.dat");
             ObjectInputStream ois = new ObjectInputStream(fis);
 
             lista = (ArrayList<JugadorRankeado>) ois.readObject();
