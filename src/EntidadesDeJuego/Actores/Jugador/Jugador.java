@@ -54,9 +54,9 @@ public class Jugador extends ActorDeJuego {
             if(tempObject.getID() == ID.EnemigoBasico || tempObject.getID() == ID.EnemigoRapido || tempObject.getID() == ID.EnemigoAgresivo) {
                 if(getBounds().intersects(tempObject.getBounds())) {
                     if(Hud.escudo >0)
-                        Hud.escudo -=1;
+                        Hud.escudo -=0.5;
                     else
-                        Hud.vida -=1;
+                        Hud.vida -=0.5;
                     audio.playSonido("src/res/Sonido/Jugador/Dolor.wav");
                 }
             }
@@ -64,9 +64,9 @@ public class Jugador extends ActorDeJuego {
                 if(getBounds().intersects(tempObject.getBounds())) {
                     audio.playSonido("src/res/Sonido/Jugador/Dolor.wav");
                     if(Hud.escudo >0)
-                        Hud.escudo -=5;
+                        Hud.escudo -=2;
                     else
-                        Hud.vida -=5;
+                        Hud.vida -=2;
                 }
             }
         }
